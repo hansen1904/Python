@@ -8,7 +8,7 @@ elif "http://" not in url:
     url = "https://" + url
 
 driver = webdriver.Chrome('I:\chromedriver.exe')
-driver.get('https://magnus-hansen.dk/')
+driver.get(url)
 
 titler = ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']
 
